@@ -3,7 +3,7 @@ package _13stringsInJava._133importantProgramsBasedOnStrings;
 import java.util.Locale;
 import java.util.Scanner;
 
-public class _5findingOccurrenceOfVowelsAndConsonantFromString
+public class _5findingOccurrenceOfVowelsAndConsonantFromStringEx5
 {
     public static void main(String[] args)
     {
