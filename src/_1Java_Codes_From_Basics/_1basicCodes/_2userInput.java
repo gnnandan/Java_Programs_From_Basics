@@ -1,4 +1,4 @@
-package _1basicCodes;
+package _1Java_Codes_From_Basics._1basicCodes;
 
 import java.util.Scanner;
 

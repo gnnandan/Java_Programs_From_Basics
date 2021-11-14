@@ -1,4 +1,4 @@
-package _2conditionalStatementsPrograms;
+package _1Java_Codes_From_Basics._2conditionalStatementsPrograms;
 
 import java.util.Enumeration;
 import java.util.Random;
