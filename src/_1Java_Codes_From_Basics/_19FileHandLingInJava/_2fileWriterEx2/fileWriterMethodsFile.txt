@@ -1,0 +1,4 @@
+Writing Int Value: 10
+Writing Char Value: a
+Writing String Value: Hello Welcome To Java
+Writing ASCII Value: 100

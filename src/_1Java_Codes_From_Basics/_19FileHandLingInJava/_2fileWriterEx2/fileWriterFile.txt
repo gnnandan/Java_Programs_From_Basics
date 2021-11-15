@@ -1,0 +1,4 @@
+Hello, i'm writing data into the file
+file name: fileWriterFile.txt
+file path: C:\Users\NANDAN GN\Desktop\Learning Resources\Java Programs\src\_1Java_Codes_From_Basics\_19FileHandLingInJava\_2fileWriterEx2\fileWriterFile.txt
+file directory: _2fileWriterEx2
