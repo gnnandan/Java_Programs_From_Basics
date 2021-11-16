@@ -1,0 +1,3 @@
+ASCII Value: 100
+Character Value: [C@1b6d3586
+String Value:Learning JAVA
