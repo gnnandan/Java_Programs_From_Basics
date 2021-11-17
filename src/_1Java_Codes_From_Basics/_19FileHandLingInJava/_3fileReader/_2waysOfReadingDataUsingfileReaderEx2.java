@@ -1,4 +1,4 @@
-package _1Java_Codes_From_Basics._19FileHandLingInJava._3fileReaderEx3;
+package _1Java_Codes_From_Basics._19FileHandLingInJava._3fileReader;
 
 import java.io.File;
 import java.io.FileReader;
@@ -16,7 +16,7 @@ public class _2waysOfReadingDataUsingfileReaderEx2
     }
     static void readDataWay_1() throws IOException
     {
-        File file = new File("C:\\Users\\NANDAN GN\\Desktop\\Learning Resources\\Java Programs\\src\\_1Java_Codes_From_Basics\\_19FileHandLingInJava\\_3fileReaderEx3\\fileReaderExample.txt");
+        File file = new File("C:\\Users\\NANDAN GN\\Desktop\\Learning Resources\\Java Programs\\src\\_1Java_Codes_From_Basics\\_19FileHandLingInJava\\_3fileReader\\fileReaderExample.txt");
         FileReader fr = new FileReader(file);
         System.out.println("Way - 1 Of Reading Data From File");
         System.out.println("******************************************************************************");
@@ -27,7 +27,7 @@ public class _2waysOfReadingDataUsingfileReaderEx2
 
     static void readDataWay_2() throws IOException
     {
-        File file = new File("C:\\Users\\NANDAN GN\\Desktop\\Learning Resources\\Java Programs\\src\\_1Java_Codes_From_Basics\\_19FileHandLingInJava\\_3fileReaderEx3\\fileReaderExample.txt");
+        File file = new File("C:\\Users\\NANDAN GN\\Desktop\\Learning Resources\\Java Programs\\src\\_1Java_Codes_From_Basics\\_19FileHandLingInJava\\_3fileReader\\fileReaderExample.txt");
         FileReader fr = new FileReader(file);
         System.out.println("Way - 2 Of Reading Data From File");
         System.out.println("******************************************************************************");
@@ -41,7 +41,7 @@ public class _2waysOfReadingDataUsingfileReaderEx2
     }
     static void readDataWay_3() throws IOException
     {
-        File file = new File("C:\\Users\\NANDAN GN\\Desktop\\Learning Resources\\Java Programs\\src\\_1Java_Codes_From_Basics\\_19FileHandLingInJava\\_3fileReaderEx3\\fileReaderExample.txt");
+        File file = new File("C:\\Users\\NANDAN GN\\Desktop\\Learning Resources\\Java Programs\\src\\_1Java_Codes_From_Basics\\_19FileHandLingInJava\\_3fileReader\\fileReaderExample.txt");
         FileReader fr = new FileReader(file);
         System.out.println("Way - 3 Of Reading Data From File");
         System.out.println("******************************************************************************");

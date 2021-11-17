@@ -1,4 +1,4 @@
-package _1Java_Codes_From_Basics._19FileHandLingInJava;
+package _1Java_Codes_From_Basics._19FileHandLingInJava._1FileClass;
 //This constructor is used to create a new file in directory within sub directory
 import java.io.File;
 import java.io.IOException;

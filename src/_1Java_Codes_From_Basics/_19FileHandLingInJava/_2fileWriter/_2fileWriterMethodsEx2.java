@@ -1,6 +1,5 @@
-package _1Java_Codes_From_Basics._19FileHandLingInJava._2fileWriterEx2;
+package _1Java_Codes_From_Basics._19FileHandLingInJava._2fileWriter;
 
-import java.io.File;
 import java.io.FileWriter;
 
 public class _2fileWriterMethodsEx2
@@ -8,7 +7,7 @@ public class _2fileWriterMethodsEx2
     public static void main(String[] args) throws Exception
     {
 
-        FileWriter fr = new FileWriter("C:\\Users\\NANDAN GN\\Desktop\\Learning Resources\\Java Programs\\src\\_1Java_Codes_From_Basics\\_19FileHandLingInJava\\_2fileWriterEx2\\fileWriterMethodsFile.txt");
+        FileWriter fr = new FileWriter("C:\\Users\\NANDAN GN\\Desktop\\Learning Resources\\Java Programs\\src\\_1Java_Codes_From_Basics\\_19FileHandLingInJava\\_2fileWriter\\fileWriterMethodsFile.txt");
         int intval=10;
         fr.write("Writing Int Value: "+intval); // writing int Value
         fr.write("\n");

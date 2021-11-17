@@ -1,4 +1,4 @@
-package _1Java_Codes_From_Basics._19FileHandLingInJava;
+package _1Java_Codes_From_Basics._19FileHandLingInJava._1FileClass;
 
 import java.io.File;
 import java.io.IOException;
@@ -7,7 +7,7 @@ public class _3creatingADirectoryEx3
 {
     public static void main(String[] args) throws IOException
     {
-        File f = new File("C:\\Users\\NANDAN GN\\Desktop\\Learning Resources\\Java Programs\\src\\_1Java_Codes_From_Basics\\_19FileHandLingInJava\\Files");
+        File f = new File("C:\\Users\\NANDAN GN\\Desktop\\Learning Resources\\Java Programs\\src\\_1Java_Codes_From_Basics\\_19FileHandLingInJava\\_1FileClass");
         System.out.println("Check Existence of Directory: "+f.exists());
         f.mkdir();//creating a directory
         System.out.println("Check Existence of Directory Now: "+f.exists());

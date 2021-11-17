@@ -1,4 +1,4 @@
-package _1Java_Codes_From_Basics._19FileHandLingInJava._3fileReaderEx3;
+package _1Java_Codes_From_Basics._19FileHandLingInJava._3fileReader;
 
 import java.io.File;
 import java.io.FileReader;
@@ -9,7 +9,7 @@ public class _1fileReaderEx1
 {
     public static void main(String[] args) throws IOException
     {
-        FileWriter fr = new FileWriter("C:\\Users\\NANDAN GN\\Desktop\\Learning Resources\\Java Programs\\src\\_1Java_Codes_From_Basics\\_19FileHandLingInJava\\_3fileReaderEx3\\fileReaderExample.txt");
+        FileWriter fr = new FileWriter("C:\\Users\\NANDAN GN\\Desktop\\Learning Resources\\Java Programs\\src\\_1Java_Codes_From_Basics\\_19FileHandLingInJava\\_3fileReader\\fileReaderExample.txt");
 
         String name = "Nandan";
         int age = 22;
@@ -24,7 +24,7 @@ public class _1fileReaderEx1
          */
 
         //open a file
-        File file = new File("C:\\Users\\NANDAN GN\\Desktop\\Learning Resources\\Java Programs\\src\\_1Java_Codes_From_Basics\\_19FileHandLingInJava\\_3fileReaderEx3\\fileReaderExample.txt");
+        File file = new File("C:\\Users\\NANDAN GN\\Desktop\\Learning Resources\\Java Programs\\src\\_1Java_Codes_From_Basics\\_19FileHandLingInJava\\_3fileReader\\fileReaderExample.txt");
         //pass the opened file as parameter to FileReader Class
         FileReader frr = new FileReader(file);
 
