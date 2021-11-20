@@ -1,4 +1,4 @@
-package _1Java_Codes_From_Basics._20JDBC;
+package _1Java_Codes_From_Basics._20JDBC._1SimpleJDBCConnectionEx;
 
 
 import java.sql.*; //1. Import the packages
