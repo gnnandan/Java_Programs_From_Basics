@@ -1,8 +1,5 @@
 package _1Java_Codes_From_Basics._20JDBC._1SimpleJDBCConnectionEx;
-
-
 import java.sql.*; //1. Import the packages
-
 public class _1javaDatabaseCollectionEx1
 {
     public static void main(String[] args) throws Exception
@@ -23,13 +20,10 @@ public class _1javaDatabaseCollectionEx1
         String url = "jdbc:mysql://localhost:3306/friends_data";
         String username = "root";
         String password = "Nandan";
-
         Connection con = DriverManager.getConnection(url,username,password); //3. create a connection
         Statement stmt = con.createStatement();//4. create a statement
-
         String query = "SELECT * FROM friends_data.friendsinfo";
         ResultSet rs = stmt.executeQuery(query); //5. execute the query
-
         //7. add 'ResultSet.next' and print the result by specifying the detatype of column
         //if we don't use while with 'rs.next()' it will show the one data
         while(rs.next())
