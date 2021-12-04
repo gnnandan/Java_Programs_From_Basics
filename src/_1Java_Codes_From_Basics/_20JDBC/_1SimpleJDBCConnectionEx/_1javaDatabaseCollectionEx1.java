@@ -16,6 +16,7 @@ public class _1javaDatabaseCollectionEx1
         7. add 'ResultSet.next' and print the result by specifying the detatype of column
         8. close the connection
          */
+
         Class.forName("com.mysql.cj.jdbc.Driver");//2. load and register the driver
         String url = "jdbc:mysql://localhost:3306/friends_data";
         String username = "root";

@@ -1,4 +1,4 @@
-package _5arraysInJava;
+package _1Java_Codes_From_Basics._5arraysInJava;
 
 import java.util.Scanner;
 
