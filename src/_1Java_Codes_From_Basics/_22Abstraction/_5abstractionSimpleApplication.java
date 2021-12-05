@@ -34,9 +34,6 @@ class TV_Remote extends remoteFunction
         System.out.println("TV is turned OFF.....!");
     }
 }
-
-
-
 public class _5abstractionSimpleApplication
 {
     public static void main(String[] args)
